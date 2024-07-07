@@ -1,6 +1,9 @@
-import { Button } from "@/components/ui/button";
-import Image from "next/image";
+"use client";
+import { UserButton } from "@clerk/clerk-react";
 
 export default function Home() {
-  return <Button>lets fcuking goooo👺</Button>
+  return (
+    <UserButton></UserButton>
+  );
 }
+  
